@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Installation &#8212; pycarl 2.0.4 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/bootstrap-sphinx.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Getting Started" href="getting_started.html" />
+    <link rel="prev" title="Welcome to pycarl’s documentation!" href="index.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script type="text/javascript" src="_static/js/jquery-1.11.0.min.js "></script>
+<script type="text/javascript" src="_static/js/jquery-fix.js "></script>
+<script type="text/javascript" src="_static/bootstrap-3.3.7/js/bootstrap.min.js "></script>
+<script type="text/javascript" src="_static/bootstrap-sphinx.js "></script>
+
+  </head><body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          Pycarl</a>
+        <span class="navbar-text navbar-version pull-left"><b>2.0.4</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="http://smtrat.github.io/carl/">Carl</a></li>
+                <li><a href="https://github.com/moves-rwth/pycarl">Github</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="index.html">Pycarl <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#requirements">Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installation-steps">Installation Steps</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="getting_started.html#a-quick-tour-through-pycarl">A Quick Tour through pycarl</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Modules:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="api/core.html">Pycarl core</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/core.html#module-pycarl">Number independent types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/core.html#module-pycarl.gmp">Number dependent types (gmp)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/core.html#module-pycarl.cln">Number dependent types (cln)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api/convert.html">Pycarl convert</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/convert.html#module-pycarl.convert">Number conversion</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api/formula.html">Pycarl formula</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/formula.html#module-pycarl.formula">Number independent types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/formula.html#module-pycarl.gmp.formula">Number dependent types (gmp)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/formula.html#module-pycarl.cln.formula">Number dependent types (cln)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api/parse.html">Pycarl parse</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api/parse.html#module-pycarl.parse">Number independent types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/parse.html#module-pycarl.gmp.parse">Number dependent types (gmp)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/parse.html#module-pycarl.cln.parse">Number dependent types (cln)</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">Installation</a><ul>
+<li><a class="reference internal" href="#requirements">Requirements</a></li>
+<li><a class="reference internal" href="#installation-steps">Installation Steps</a><ul>
+<li><a class="reference internal" href="#virtual-environments">Virtual Environments</a></li>
+<li><a class="reference internal" href="#building-pycarl">Building pycarl</a><ul>
+<li><a class="reference internal" href="#optional-build-arguments">Optional build arguments</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#testing-pycarl-installation">Testing pycarl installation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+  <li>
+    <a href="index.html" title="Previous Chapter: Welcome to pycarl’s documentation!"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Welcome to py...</span>
+    </a>
+  </li>
+  <li>
+    <a href="getting_started.html" title="Next Chapter: Getting Started"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Getting Started &raquo;</span>
+    </a>
+  </li>
+              
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="body col-md-12 content" role="main">
+      
+  <section id="installation">
+<h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+<section id="requirements">
+<h2>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h2>
+<p>Before installing pycarl, make sure</p>
+<ul class="simple">
+<li><p>Python 3 is available on your system. Pycarl does not work with python 2.</p></li>
+<li><p><a class="reference external" href="https://smtrat.github.io/carl">carl</a> with branch <code class="docutils literal notranslate"><span class="pre">master14</span></code> is available on your system.</p></li>
+<li><p><em>(optional)</em> in order to have full parsing capabilities, you additionally need <a class="reference external" href="https://github.com/smtrat/carl-parser">carl-parser</a>.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Make sure you are using the <code class="docutils literal notranslate"><span class="pre">master14</span></code> branch of carl as the current master branch uses a newer C++ standard that pycarl does not require and therefore does not enable.</p>
+</div>
+</section>
+<section id="installation-steps">
+<h2>Installation Steps<a class="headerlink" href="#installation-steps" title="Permalink to this headline">¶</a></h2>
+<section id="virtual-environments">
+<h3>Virtual Environments<a class="headerlink" href="#virtual-environments" title="Permalink to this headline">¶</a></h3>
+<p>Virtual environments create isolated environments for your projects.
+This helps to keep your system clean, work with different versions of packages and different version of python.
+While it is not required, we recommend the use of such virtual environments. To get you started, we recommend
+<a class="reference external" href="http://docs.python-guide.org/en/latest/dev/virtualenvs/">this guide</a> or
+<a class="reference external" href="https://realpython.com/blog/python/python-virtual-environments-a-primer">this primer</a>.</p>
+<p>In short you can create a virtual environment <code class="docutils literal notranslate"><span class="pre">env</span></code> with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ pip install virtualenv
+$ virtualenv -p python3 env
+$ source env/bin/activate
+</pre></div>
+</div>
+<p>The last step activates the virtual environment.
+Whenever using the environment the console prompt is prefixed with <code class="docutils literal notranslate"><span class="pre">(env)</span></code>.</p>
+</section>
+<section id="building-pycarl">
+<h3>Building pycarl<a class="headerlink" href="#building-pycarl" title="Permalink to this headline">¶</a></h3>
+<p>Clone pycarl into any suitable location:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git clone https://github.com/moves-rwth/pycarl.git
+$ cd pycarl
+</pre></div>
+</div>
+<p>Build pycarl in develop mode using your favourite python distribution way of installing: e.g.:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ python3 setup.py develop
+</pre></div>
+</div>
+<p>or:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ pip install -ve .
+</pre></div>
+</div>
+<section id="optional-build-arguments">
+<h4>Optional build arguments<a class="headerlink" href="#optional-build-arguments" title="Permalink to this headline">¶</a></h4>
+<p>The build step also takes optional arguments for a more advanced configuration of pycarl.</p>
+<ul>
+<li><p><em>Specifying which carl library to use</em></p>
+<p>If you have multiple versions of carl or cmake is not able to find your carl version,
+you can specify the <code class="docutils literal notranslate"><span class="pre">--carl-dir</span> <span class="pre">YOUR-PATH-TO-CARL</span></code> flag in the <code class="docutils literal notranslate"><span class="pre">build_ext</span></code> step:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ python3 setup.py build_ext --carl-dir YOUR-PATH-TO-CARL develop
+</pre></div>
+</div>
+</li>
+<li><p><em>Disabling functionality</em></p>
+<p>If you want to disable certain functionality in pycarl from being built you can use the following flags:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">--disable-cln</span></code> to disable support for CLN numbers</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">--disable-parser</span></code> to disable support for full parsing capabilities</p></li>
+</ul>
+</li>
+<li><p><em>Building pycarl in debug mode</em></p>
+<p>If you want to build pycarl in debug mode you can add the <code class="docutils literal notranslate"><span class="pre">--debug</span></code> flag in the <code class="docutils literal notranslate"><span class="pre">build_ext</span></code> step:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ python3 setup.py build_ext --debug develop
+</pre></div>
+</div>
+</li>
+<li><p><em>Setting number of build threads</em></p>
+<p>The build of pycarl uses all available cores per default.
+If you want to configure the number of threads manually you can specify the <code class="docutils literal notranslate"><span class="pre">--jobs</span></code> (or <code class="docutils literal notranslate"><span class="pre">-j</span></code>) flag:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ python3 setup.py build_ext --jobs 2 develop
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+</section>
+<section id="testing-pycarl-installation">
+<h3>Testing pycarl installation<a class="headerlink" href="#testing-pycarl-installation" title="Permalink to this headline">¶</a></h3>
+<p>After building, you can run the test files by either:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ python setup.py test
+</pre></div>
+</div>
+<p>or by invoking pytest directly with:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ pip install pytest
+$ py.test tests/
+</pre></div>
+</div>
+<p>If you do not experience any issues, you can now use pycarl. To get started, follow the <a class="reference internal" href="getting_started.html"><span class="doc">Getting Started</span></a>, consult the test files in <code class="docutils literal notranslate"><span class="pre">tests/</span></code> or the <a class="reference internal" href="api.html"><span class="doc">Pycarl API Reference</span></a> (work in progress).</p>
+</section>
+</section>
+</section>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+        <br/>
+        
+<div id="sourcelink">
+  <a href="_sources/installation.rst.txt"
+     rel="nofollow">Source</a>
+</div>
+      
+    </p>
+    <p>
+        &copy; Copyright 2016-2021 Moves RWTH Aachen.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.0.2.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
