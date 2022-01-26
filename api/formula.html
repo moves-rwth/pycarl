@@ -20,9 +20,9 @@
 <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
 <meta name="apple-mobile-web-app-capable" content="yes">
-<script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js "></script>
+<script type="text/javascript" src="../_static/js/jquery-1.12.4.min.js "></script>
 <script type="text/javascript" src="../_static/js/jquery-fix.js "></script>
-<script type="text/javascript" src="../_static/bootstrap-3.3.7/js/bootstrap.min.js "></script>
+<script type="text/javascript" src="../_static/bootstrap-3.4.1/js/bootstrap.min.js "></script>
 <script type="text/javascript" src="../_static/bootstrap-sphinx.js "></script>
 
   </head><body>
@@ -56,7 +56,7 @@
      href="../index.html">Pycarl <b class="caret"></b></a>
   <ul class="dropdown-menu globaltoc"
       role="menu"
-      aria-labelledby="dLabelGlobalToc"><p class="caption"><span class="caption-text">Contents:</span></p>
+      aria-labelledby="dLabelGlobalToc"><p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../installation.html">Installation</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../installation.html#requirements">Requirements</a></li>
@@ -68,7 +68,7 @@
 </ul>
 </li>
 </ul>
-<p class="caption"><span class="caption-text">Modules:</span></p>
+<p class="caption" role="heading"><span class="caption-text">Modules:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="core.html">Pycarl core</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="core.html#module-pycarl">Number independent types</a></li>
@@ -158,115 +158,115 @@
 <span id="number-independent-types"></span><h2>Number independent types<a class="headerlink" href="#module-pycarl.formula" title="Permalink to this headline">¶</a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="pycarl.formula.FormulaType">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">pycarl.formula.</span></span><span class="sig-name descname"><span class="pre">FormulaType</span></span><a class="headerlink" href="#pycarl.formula.FormulaType" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pycarl.formula.</span></span><span class="sig-name descname"><span class="pre">FormulaType</span></span><a class="headerlink" href="#pycarl.formula.FormulaType" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="py attribute">
 <dt class="sig sig-object py" id="pycarl.formula.FormulaType.AND">
-<span class="sig-name descname"><span class="pre">AND</span></span><em class="property"> <span class="pre">=</span> <span class="pre">FormulaType.AND</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.AND" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">AND</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">FormulaType.AND</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.AND" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pycarl.formula.FormulaType.BITVECTOR">
-<span class="sig-name descname"><span class="pre">BITVECTOR</span></span><em class="property"> <span class="pre">=</span> <span class="pre">FormulaType.BITVECTOR</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.BITVECTOR" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">BITVECTOR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">FormulaType.BITVECTOR</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.BITVECTOR" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pycarl.formula.FormulaType.BOOL">
-<span class="sig-name descname"><span class="pre">BOOL</span></span><em class="property"> <span class="pre">=</span> <span class="pre">FormulaType.BOOL</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.BOOL" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">BOOL</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">FormulaType.BOOL</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.BOOL" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pycarl.formula.FormulaType.CONSTRAINT">
-<span class="sig-name descname"><span class="pre">CONSTRAINT</span></span><em class="property"> <span class="pre">=</span> <span class="pre">FormulaType.CONSTRAINT</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.CONSTRAINT" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">CONSTRAINT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">FormulaType.CONSTRAINT</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.CONSTRAINT" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pycarl.formula.FormulaType.EXISTS">
-<span class="sig-name descname"><span class="pre">EXISTS</span></span><em class="property"> <span class="pre">=</span> <span class="pre">FormulaType.EXISTS</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.EXISTS" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">EXISTS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">FormulaType.EXISTS</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.EXISTS" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pycarl.formula.FormulaType.FALSE">
-<span class="sig-name descname"><span class="pre">FALSE</span></span><em class="property"> <span class="pre">=</span> <span class="pre">FormulaType.FALSE</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.FALSE" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">FALSE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">FormulaType.FALSE</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.FALSE" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pycarl.formula.FormulaType.FORALL">
-<span class="sig-name descname"><span class="pre">FORALL</span></span><em class="property"> <span class="pre">=</span> <span class="pre">FormulaType.FORALL</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.FORALL" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">FORALL</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">FormulaType.FORALL</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.FORALL" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pycarl.formula.FormulaType.IFF">
-<span class="sig-name descname"><span class="pre">IFF</span></span><em class="property"> <span class="pre">=</span> <span class="pre">FormulaType.IFF</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.IFF" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">IFF</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">FormulaType.IFF</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.IFF" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pycarl.formula.FormulaType.IMPLIES">
-<span class="sig-name descname"><span class="pre">IMPLIES</span></span><em class="property"> <span class="pre">=</span> <span class="pre">FormulaType.IMPLIES</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.IMPLIES" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">IMPLIES</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">FormulaType.IMPLIES</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.IMPLIES" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pycarl.formula.FormulaType.ITE">
-<span class="sig-name descname"><span class="pre">ITE</span></span><em class="property"> <span class="pre">=</span> <span class="pre">FormulaType.ITE</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.ITE" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">ITE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">FormulaType.ITE</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.ITE" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pycarl.formula.FormulaType.NOT">
-<span class="sig-name descname"><span class="pre">NOT</span></span><em class="property"> <span class="pre">=</span> <span class="pre">FormulaType.NOT</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.NOT" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">NOT</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">FormulaType.NOT</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.NOT" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pycarl.formula.FormulaType.OR">
-<span class="sig-name descname"><span class="pre">OR</span></span><em class="property"> <span class="pre">=</span> <span class="pre">FormulaType.OR</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.OR" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">OR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">FormulaType.OR</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.OR" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pycarl.formula.FormulaType.TRUE">
-<span class="sig-name descname"><span class="pre">TRUE</span></span><em class="property"> <span class="pre">=</span> <span class="pre">FormulaType.TRUE</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.TRUE" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">TRUE</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">FormulaType.TRUE</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.TRUE" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pycarl.formula.FormulaType.UEQ">
-<span class="sig-name descname"><span class="pre">UEQ</span></span><em class="property"> <span class="pre">=</span> <span class="pre">FormulaType.UEQ</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.UEQ" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">UEQ</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">FormulaType.UEQ</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.UEQ" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pycarl.formula.FormulaType.XOR">
-<span class="sig-name descname"><span class="pre">XOR</span></span><em class="property"> <span class="pre">=</span> <span class="pre">FormulaType.XOR</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.XOR" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">XOR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">FormulaType.XOR</span></em><a class="headerlink" href="#pycarl.formula.FormulaType.XOR" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="pycarl.formula.Relation">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">pycarl.formula.</span></span><span class="sig-name descname"><span class="pre">Relation</span></span><a class="headerlink" href="#pycarl.formula.Relation" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pycarl.formula.</span></span><span class="sig-name descname"><span class="pre">Relation</span></span><a class="headerlink" href="#pycarl.formula.Relation" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="py attribute">
 <dt class="sig sig-object py" id="pycarl.formula.Relation.EQ">
-<span class="sig-name descname"><span class="pre">EQ</span></span><em class="property"> <span class="pre">=</span> <span class="pre">Relation.EQ</span></em><a class="headerlink" href="#pycarl.formula.Relation.EQ" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">EQ</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">Relation.EQ</span></em><a class="headerlink" href="#pycarl.formula.Relation.EQ" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pycarl.formula.Relation.GEQ">
-<span class="sig-name descname"><span class="pre">GEQ</span></span><em class="property"> <span class="pre">=</span> <span class="pre">Relation.GEQ</span></em><a class="headerlink" href="#pycarl.formula.Relation.GEQ" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">GEQ</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">Relation.GEQ</span></em><a class="headerlink" href="#pycarl.formula.Relation.GEQ" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pycarl.formula.Relation.GREATER">
-<span class="sig-name descname"><span class="pre">GREATER</span></span><em class="property"> <span class="pre">=</span> <span class="pre">Relation.GREATER</span></em><a class="headerlink" href="#pycarl.formula.Relation.GREATER" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">GREATER</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">Relation.GREATER</span></em><a class="headerlink" href="#pycarl.formula.Relation.GREATER" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pycarl.formula.Relation.LEQ">
-<span class="sig-name descname"><span class="pre">LEQ</span></span><em class="property"> <span class="pre">=</span> <span class="pre">Relation.LEQ</span></em><a class="headerlink" href="#pycarl.formula.Relation.LEQ" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">LEQ</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">Relation.LEQ</span></em><a class="headerlink" href="#pycarl.formula.Relation.LEQ" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pycarl.formula.Relation.LESS">
-<span class="sig-name descname"><span class="pre">LESS</span></span><em class="property"> <span class="pre">=</span> <span class="pre">Relation.LESS</span></em><a class="headerlink" href="#pycarl.formula.Relation.LESS" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">LESS</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">Relation.LESS</span></em><a class="headerlink" href="#pycarl.formula.Relation.LESS" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pycarl.formula.Relation.NEQ">
-<span class="sig-name descname"><span class="pre">NEQ</span></span><em class="property"> <span class="pre">=</span> <span class="pre">Relation.NEQ</span></em><a class="headerlink" href="#pycarl.formula.Relation.NEQ" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">NEQ</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">Relation.NEQ</span></em><a class="headerlink" href="#pycarl.formula.Relation.NEQ" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
@@ -276,99 +276,99 @@
 <span id="number-dependent-types-gmp"></span><h2>Number dependent types (gmp)<a class="headerlink" href="#module-pycarl.gmp.formula" title="Permalink to this headline">¶</a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="pycarl.gmp.formula.Constraint">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">pycarl.gmp.formula.</span></span><span class="sig-name descname"><span class="pre">Constraint</span></span><a class="headerlink" href="#pycarl.gmp.formula.Constraint" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pycarl.gmp.formula.</span></span><span class="sig-name descname"><span class="pre">Constraint</span></span><a class="headerlink" href="#pycarl.gmp.formula.Constraint" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="py property">
 <dt class="sig sig-object py" id="pycarl.gmp.formula.Constraint.lhs">
-<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">lhs</span></span><a class="headerlink" href="#pycarl.gmp.formula.Constraint.lhs" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">lhs</span></span><a class="headerlink" href="#pycarl.gmp.formula.Constraint.lhs" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py property">
 <dt class="sig sig-object py" id="pycarl.gmp.formula.Constraint.relation">
-<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">relation</span></span><a class="headerlink" href="#pycarl.gmp.formula.Constraint.relation" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">relation</span></span><a class="headerlink" href="#pycarl.gmp.formula.Constraint.relation" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycarl.gmp.formula.Constraint.to_smt2">
-<span class="sig-name descname"><span class="pre">to_smt2</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.gmp.formula.Constraint" title="pycarl.gmp.formula.formula.Constraint"><span class="pre">pycarl.gmp.formula.formula.Constraint</span></a></span></em><span class="sig-paren">)</span> &#x2192; <span class="pre">str</span><a class="headerlink" href="#pycarl.gmp.formula.Constraint.to_smt2" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">to_smt2</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.gmp.formula.Constraint" title="pycarl.gmp.formula.formula.Constraint"><span class="pre">pycarl.gmp.formula.formula.Constraint</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#pycarl.gmp.formula.Constraint.to_smt2" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="pycarl.gmp.formula.Formula">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">pycarl.gmp.formula.</span></span><span class="sig-name descname"><span class="pre">Formula</span></span><a class="headerlink" href="#pycarl.gmp.formula.Formula" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pycarl.gmp.formula.</span></span><span class="sig-name descname"><span class="pre">Formula</span></span><a class="headerlink" href="#pycarl.gmp.formula.Formula" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="py method">
 <dt class="sig sig-object py" id="pycarl.gmp.formula.Formula.get_constraint">
-<span class="sig-name descname"><span class="pre">get_constraint</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="#pycarl.gmp.formula.Constraint" title="pycarl.gmp.formula.formula.Constraint"><span class="pre">pycarl.gmp.formula.formula.Constraint</span></a><a class="headerlink" href="#pycarl.gmp.formula.Formula.get_constraint" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">get_constraint</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pycarl.gmp.formula.Constraint" title="pycarl.gmp.formula.formula.Constraint"><span class="pre">pycarl.gmp.formula.formula.Constraint</span></a></span></span><a class="headerlink" href="#pycarl.gmp.formula.Formula.get_constraint" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get constraint of constraint formula</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycarl.gmp.formula.Formula.get_implication_conclusion">
-<span class="sig-name descname"><span class="pre">get_implication_conclusion</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a><a class="headerlink" href="#pycarl.gmp.formula.Formula.get_implication_conclusion" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">get_implication_conclusion</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a></span></span><a class="headerlink" href="#pycarl.gmp.formula.Formula.get_implication_conclusion" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get conclusion of implication formula</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycarl.gmp.formula.Formula.get_implication_premise">
-<span class="sig-name descname"><span class="pre">get_implication_premise</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a><a class="headerlink" href="#pycarl.gmp.formula.Formula.get_implication_premise" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">get_implication_premise</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a></span></span><a class="headerlink" href="#pycarl.gmp.formula.Formula.get_implication_premise" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get premise of implication formula</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycarl.gmp.formula.Formula.get_ite_condition">
-<span class="sig-name descname"><span class="pre">get_ite_condition</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a><a class="headerlink" href="#pycarl.gmp.formula.Formula.get_ite_condition" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">get_ite_condition</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a></span></span><a class="headerlink" href="#pycarl.gmp.formula.Formula.get_ite_condition" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get condition of ITE formula</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycarl.gmp.formula.Formula.get_ite_first_case">
-<span class="sig-name descname"><span class="pre">get_ite_first_case</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a><a class="headerlink" href="#pycarl.gmp.formula.Formula.get_ite_first_case" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">get_ite_first_case</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a></span></span><a class="headerlink" href="#pycarl.gmp.formula.Formula.get_ite_first_case" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get then case of ITE formula</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycarl.gmp.formula.Formula.get_ite_second_case">
-<span class="sig-name descname"><span class="pre">get_ite_second_case</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a><a class="headerlink" href="#pycarl.gmp.formula.Formula.get_ite_second_case" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">get_ite_second_case</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a></span></span><a class="headerlink" href="#pycarl.gmp.formula.Formula.get_ite_second_case" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get else case of ITE formula</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycarl.gmp.formula.Formula.get_negation_subformula">
-<span class="sig-name descname"><span class="pre">get_negation_subformula</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a><a class="headerlink" href="#pycarl.gmp.formula.Formula.get_negation_subformula" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">get_negation_subformula</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a></span></span><a class="headerlink" href="#pycarl.gmp.formula.Formula.get_negation_subformula" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get subformula of negation formula</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycarl.gmp.formula.Formula.get_subformulas">
-<span class="sig-name descname"><span class="pre">get_subformulas</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> &#x2192; <span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a><span class="p"><span class="pre">]</span></span><a class="headerlink" href="#pycarl.gmp.formula.Formula.get_subformulas" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">get_subformulas</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pycarl.gmp.formula.Formula.get_subformulas" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get list of subformulas for n-ary formula</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycarl.gmp.formula.Formula.to_smt2">
-<span class="sig-name descname"><span class="pre">to_smt2</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> &#x2192; <span class="pre">str</span><a class="headerlink" href="#pycarl.gmp.formula.Formula.to_smt2" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">to_smt2</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.gmp.formula.Formula" title="pycarl.gmp.formula.formula.Formula"><span class="pre">pycarl.gmp.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#pycarl.gmp.formula.Formula.to_smt2" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py property">
 <dt class="sig sig-object py" id="pycarl.gmp.formula.Formula.type">
-<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">type</span></span><a class="headerlink" href="#pycarl.gmp.formula.Formula.type" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">type</span></span><a class="headerlink" href="#pycarl.gmp.formula.Formula.type" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="pycarl.gmp.formula.SimpleConstraint">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">pycarl.gmp.formula.</span></span><span class="sig-name descname"><span class="pre">SimpleConstraint</span></span><a class="headerlink" href="#pycarl.gmp.formula.SimpleConstraint" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pycarl.gmp.formula.</span></span><span class="sig-name descname"><span class="pre">SimpleConstraint</span></span><a class="headerlink" href="#pycarl.gmp.formula.SimpleConstraint" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="py method">
 <dt class="sig sig-object py" id="pycarl.gmp.formula.SimpleConstraint.lhs">
-<span class="sig-name descname"><span class="pre">lhs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.gmp.formula.SimpleConstraint" title="pycarl.gmp.formula.formula.SimpleConstraint"><span class="pre">pycarl.gmp.formula.formula.SimpleConstraint</span></a></span></em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="core.html#pycarl.gmp.Polynomial" title="pycarl.gmp.gmp.Polynomial"><span class="pre">pycarl.gmp.gmp.Polynomial</span></a><a class="headerlink" href="#pycarl.gmp.formula.SimpleConstraint.lhs" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">lhs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.gmp.formula.SimpleConstraint" title="pycarl.gmp.formula.formula.SimpleConstraint"><span class="pre">pycarl.gmp.formula.formula.SimpleConstraint</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="core.html#pycarl.gmp.Polynomial" title="pycarl.gmp.gmp.Polynomial"><span class="pre">pycarl.gmp.gmp.Polynomial</span></a></span></span><a class="headerlink" href="#pycarl.gmp.formula.SimpleConstraint.lhs" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get the left hand side of the constraint</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycarl.gmp.formula.SimpleConstraint.rel">
-<span class="sig-name descname"><span class="pre">rel</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.gmp.formula.SimpleConstraint" title="pycarl.gmp.formula.formula.SimpleConstraint"><span class="pre">pycarl.gmp.formula.formula.SimpleConstraint</span></a></span></em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="#pycarl.formula.Relation" title="pycarl.formula.formula.Relation"><span class="pre">pycarl.formula.formula.Relation</span></a><a class="headerlink" href="#pycarl.gmp.formula.SimpleConstraint.rel" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">rel</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.gmp.formula.SimpleConstraint" title="pycarl.gmp.formula.formula.SimpleConstraint"><span class="pre">pycarl.gmp.formula.formula.SimpleConstraint</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pycarl.formula.Relation" title="pycarl.formula.formula.Relation"><span class="pre">pycarl.formula.formula.Relation</span></a></span></span><a class="headerlink" href="#pycarl.gmp.formula.SimpleConstraint.rel" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get the relation of the constraint</p>
 </dd></dl>
 
@@ -376,16 +376,16 @@
 
 <dl class="py class">
 <dt class="sig sig-object py" id="pycarl.gmp.formula.SimpleConstraintRatFunc">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">pycarl.gmp.formula.</span></span><span class="sig-name descname"><span class="pre">SimpleConstraintRatFunc</span></span><a class="headerlink" href="#pycarl.gmp.formula.SimpleConstraintRatFunc" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pycarl.gmp.formula.</span></span><span class="sig-name descname"><span class="pre">SimpleConstraintRatFunc</span></span><a class="headerlink" href="#pycarl.gmp.formula.SimpleConstraintRatFunc" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="py method">
 <dt class="sig sig-object py" id="pycarl.gmp.formula.SimpleConstraintRatFunc.lhs">
-<span class="sig-name descname"><span class="pre">lhs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.gmp.formula.SimpleConstraintRatFunc" title="pycarl.gmp.formula.formula.SimpleConstraintRatFunc"><span class="pre">pycarl.gmp.formula.formula.SimpleConstraintRatFunc</span></a></span></em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="core.html#pycarl.gmp.FactorizedRationalFunction" title="pycarl.gmp.gmp.FactorizedRationalFunction"><span class="pre">pycarl.gmp.gmp.FactorizedRationalFunction</span></a><a class="headerlink" href="#pycarl.gmp.formula.SimpleConstraintRatFunc.lhs" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">lhs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.gmp.formula.SimpleConstraintRatFunc" title="pycarl.gmp.formula.formula.SimpleConstraintRatFunc"><span class="pre">pycarl.gmp.formula.formula.SimpleConstraintRatFunc</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="core.html#pycarl.gmp.FactorizedRationalFunction" title="pycarl.gmp.gmp.FactorizedRationalFunction"><span class="pre">pycarl.gmp.gmp.FactorizedRationalFunction</span></a></span></span><a class="headerlink" href="#pycarl.gmp.formula.SimpleConstraintRatFunc.lhs" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get the left hand side of the constraint</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycarl.gmp.formula.SimpleConstraintRatFunc.rel">
-<span class="sig-name descname"><span class="pre">rel</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.gmp.formula.SimpleConstraintRatFunc" title="pycarl.gmp.formula.formula.SimpleConstraintRatFunc"><span class="pre">pycarl.gmp.formula.formula.SimpleConstraintRatFunc</span></a></span></em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="#pycarl.formula.Relation" title="pycarl.formula.formula.Relation"><span class="pre">pycarl.formula.formula.Relation</span></a><a class="headerlink" href="#pycarl.gmp.formula.SimpleConstraintRatFunc.rel" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">rel</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.gmp.formula.SimpleConstraintRatFunc" title="pycarl.gmp.formula.formula.SimpleConstraintRatFunc"><span class="pre">pycarl.gmp.formula.formula.SimpleConstraintRatFunc</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pycarl.formula.Relation" title="pycarl.formula.formula.Relation"><span class="pre">pycarl.formula.formula.Relation</span></a></span></span><a class="headerlink" href="#pycarl.gmp.formula.SimpleConstraintRatFunc.rel" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get the relation of the constraint</p>
 </dd></dl>
 
@@ -396,99 +396,99 @@
 <span id="number-dependent-types-cln"></span><h2>Number dependent types (cln)<a class="headerlink" href="#module-pycarl.cln.formula" title="Permalink to this headline">¶</a></h2>
 <dl class="py class">
 <dt class="sig sig-object py" id="pycarl.cln.formula.Constraint">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">pycarl.cln.formula.</span></span><span class="sig-name descname"><span class="pre">Constraint</span></span><a class="headerlink" href="#pycarl.cln.formula.Constraint" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pycarl.cln.formula.</span></span><span class="sig-name descname"><span class="pre">Constraint</span></span><a class="headerlink" href="#pycarl.cln.formula.Constraint" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="py property">
 <dt class="sig sig-object py" id="pycarl.cln.formula.Constraint.lhs">
-<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">lhs</span></span><a class="headerlink" href="#pycarl.cln.formula.Constraint.lhs" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">lhs</span></span><a class="headerlink" href="#pycarl.cln.formula.Constraint.lhs" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py property">
 <dt class="sig sig-object py" id="pycarl.cln.formula.Constraint.relation">
-<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">relation</span></span><a class="headerlink" href="#pycarl.cln.formula.Constraint.relation" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">relation</span></span><a class="headerlink" href="#pycarl.cln.formula.Constraint.relation" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycarl.cln.formula.Constraint.to_smt2">
-<span class="sig-name descname"><span class="pre">to_smt2</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.cln.formula.Constraint" title="pycarl.cln.formula.formula.Constraint"><span class="pre">pycarl.cln.formula.formula.Constraint</span></a></span></em><span class="sig-paren">)</span> &#x2192; <span class="pre">str</span><a class="headerlink" href="#pycarl.cln.formula.Constraint.to_smt2" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">to_smt2</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.cln.formula.Constraint" title="pycarl.cln.formula.formula.Constraint"><span class="pre">pycarl.cln.formula.formula.Constraint</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#pycarl.cln.formula.Constraint.to_smt2" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="pycarl.cln.formula.Formula">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">pycarl.cln.formula.</span></span><span class="sig-name descname"><span class="pre">Formula</span></span><a class="headerlink" href="#pycarl.cln.formula.Formula" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pycarl.cln.formula.</span></span><span class="sig-name descname"><span class="pre">Formula</span></span><a class="headerlink" href="#pycarl.cln.formula.Formula" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="py method">
 <dt class="sig sig-object py" id="pycarl.cln.formula.Formula.get_constraint">
-<span class="sig-name descname"><span class="pre">get_constraint</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="#pycarl.cln.formula.Constraint" title="pycarl.cln.formula.formula.Constraint"><span class="pre">pycarl.cln.formula.formula.Constraint</span></a><a class="headerlink" href="#pycarl.cln.formula.Formula.get_constraint" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">get_constraint</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pycarl.cln.formula.Constraint" title="pycarl.cln.formula.formula.Constraint"><span class="pre">pycarl.cln.formula.formula.Constraint</span></a></span></span><a class="headerlink" href="#pycarl.cln.formula.Formula.get_constraint" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get constraint of constraint formula</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycarl.cln.formula.Formula.get_implication_conclusion">
-<span class="sig-name descname"><span class="pre">get_implication_conclusion</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a><a class="headerlink" href="#pycarl.cln.formula.Formula.get_implication_conclusion" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">get_implication_conclusion</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a></span></span><a class="headerlink" href="#pycarl.cln.formula.Formula.get_implication_conclusion" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get conclusion of implication formula</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycarl.cln.formula.Formula.get_implication_premise">
-<span class="sig-name descname"><span class="pre">get_implication_premise</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a><a class="headerlink" href="#pycarl.cln.formula.Formula.get_implication_premise" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">get_implication_premise</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a></span></span><a class="headerlink" href="#pycarl.cln.formula.Formula.get_implication_premise" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get premise of implication formula</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycarl.cln.formula.Formula.get_ite_condition">
-<span class="sig-name descname"><span class="pre">get_ite_condition</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a><a class="headerlink" href="#pycarl.cln.formula.Formula.get_ite_condition" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">get_ite_condition</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a></span></span><a class="headerlink" href="#pycarl.cln.formula.Formula.get_ite_condition" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get condition of ITE formula</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycarl.cln.formula.Formula.get_ite_first_case">
-<span class="sig-name descname"><span class="pre">get_ite_first_case</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a><a class="headerlink" href="#pycarl.cln.formula.Formula.get_ite_first_case" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">get_ite_first_case</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a></span></span><a class="headerlink" href="#pycarl.cln.formula.Formula.get_ite_first_case" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get then case of ITE formula</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycarl.cln.formula.Formula.get_ite_second_case">
-<span class="sig-name descname"><span class="pre">get_ite_second_case</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a><a class="headerlink" href="#pycarl.cln.formula.Formula.get_ite_second_case" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">get_ite_second_case</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a></span></span><a class="headerlink" href="#pycarl.cln.formula.Formula.get_ite_second_case" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get else case of ITE formula</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycarl.cln.formula.Formula.get_negation_subformula">
-<span class="sig-name descname"><span class="pre">get_negation_subformula</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a><a class="headerlink" href="#pycarl.cln.formula.Formula.get_negation_subformula" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">get_negation_subformula</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a></span></span><a class="headerlink" href="#pycarl.cln.formula.Formula.get_negation_subformula" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get subformula of negation formula</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycarl.cln.formula.Formula.get_subformulas">
-<span class="sig-name descname"><span class="pre">get_subformulas</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> &#x2192; <span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a><span class="p"><span class="pre">]</span></span><a class="headerlink" href="#pycarl.cln.formula.Formula.get_subformulas" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">get_subformulas</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pycarl.cln.formula.Formula.get_subformulas" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get list of subformulas for n-ary formula</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycarl.cln.formula.Formula.to_smt2">
-<span class="sig-name descname"><span class="pre">to_smt2</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> &#x2192; <span class="pre">str</span><a class="headerlink" href="#pycarl.cln.formula.Formula.to_smt2" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">to_smt2</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.cln.formula.Formula" title="pycarl.cln.formula.formula.Formula"><span class="pre">pycarl.cln.formula.formula.Formula</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="headerlink" href="#pycarl.cln.formula.Formula.to_smt2" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py property">
 <dt class="sig sig-object py" id="pycarl.cln.formula.Formula.type">
-<em class="property"><span class="pre">property</span> </em><span class="sig-name descname"><span class="pre">type</span></span><a class="headerlink" href="#pycarl.cln.formula.Formula.type" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">type</span></span><a class="headerlink" href="#pycarl.cln.formula.Formula.type" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="pycarl.cln.formula.SimpleConstraint">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">pycarl.cln.formula.</span></span><span class="sig-name descname"><span class="pre">SimpleConstraint</span></span><a class="headerlink" href="#pycarl.cln.formula.SimpleConstraint" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pycarl.cln.formula.</span></span><span class="sig-name descname"><span class="pre">SimpleConstraint</span></span><a class="headerlink" href="#pycarl.cln.formula.SimpleConstraint" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="py method">
 <dt class="sig sig-object py" id="pycarl.cln.formula.SimpleConstraint.lhs">
-<span class="sig-name descname"><span class="pre">lhs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.cln.formula.SimpleConstraint" title="pycarl.cln.formula.formula.SimpleConstraint"><span class="pre">pycarl.cln.formula.formula.SimpleConstraint</span></a></span></em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="core.html#pycarl.cln.Polynomial" title="pycarl.cln.cln.Polynomial"><span class="pre">pycarl.cln.cln.Polynomial</span></a><a class="headerlink" href="#pycarl.cln.formula.SimpleConstraint.lhs" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">lhs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.cln.formula.SimpleConstraint" title="pycarl.cln.formula.formula.SimpleConstraint"><span class="pre">pycarl.cln.formula.formula.SimpleConstraint</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="core.html#pycarl.cln.Polynomial" title="pycarl.cln.cln.Polynomial"><span class="pre">pycarl.cln.cln.Polynomial</span></a></span></span><a class="headerlink" href="#pycarl.cln.formula.SimpleConstraint.lhs" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get the left hand side of the constraint</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycarl.cln.formula.SimpleConstraint.rel">
-<span class="sig-name descname"><span class="pre">rel</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.cln.formula.SimpleConstraint" title="pycarl.cln.formula.formula.SimpleConstraint"><span class="pre">pycarl.cln.formula.formula.SimpleConstraint</span></a></span></em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="#pycarl.formula.Relation" title="pycarl.formula.formula.Relation"><span class="pre">pycarl.formula.formula.Relation</span></a><a class="headerlink" href="#pycarl.cln.formula.SimpleConstraint.rel" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">rel</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.cln.formula.SimpleConstraint" title="pycarl.cln.formula.formula.SimpleConstraint"><span class="pre">pycarl.cln.formula.formula.SimpleConstraint</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pycarl.formula.Relation" title="pycarl.formula.formula.Relation"><span class="pre">pycarl.formula.formula.Relation</span></a></span></span><a class="headerlink" href="#pycarl.cln.formula.SimpleConstraint.rel" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get the relation of the constraint</p>
 </dd></dl>
 
@@ -496,16 +496,16 @@
 
 <dl class="py class">
 <dt class="sig sig-object py" id="pycarl.cln.formula.SimpleConstraintRatFunc">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">pycarl.cln.formula.</span></span><span class="sig-name descname"><span class="pre">SimpleConstraintRatFunc</span></span><a class="headerlink" href="#pycarl.cln.formula.SimpleConstraintRatFunc" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pycarl.cln.formula.</span></span><span class="sig-name descname"><span class="pre">SimpleConstraintRatFunc</span></span><a class="headerlink" href="#pycarl.cln.formula.SimpleConstraintRatFunc" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="py method">
 <dt class="sig sig-object py" id="pycarl.cln.formula.SimpleConstraintRatFunc.lhs">
-<span class="sig-name descname"><span class="pre">lhs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.cln.formula.SimpleConstraintRatFunc" title="pycarl.cln.formula.formula.SimpleConstraintRatFunc"><span class="pre">pycarl.cln.formula.formula.SimpleConstraintRatFunc</span></a></span></em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="core.html#pycarl.cln.FactorizedRationalFunction" title="pycarl.cln.cln.FactorizedRationalFunction"><span class="pre">pycarl.cln.cln.FactorizedRationalFunction</span></a><a class="headerlink" href="#pycarl.cln.formula.SimpleConstraintRatFunc.lhs" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">lhs</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.cln.formula.SimpleConstraintRatFunc" title="pycarl.cln.formula.formula.SimpleConstraintRatFunc"><span class="pre">pycarl.cln.formula.formula.SimpleConstraintRatFunc</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="core.html#pycarl.cln.FactorizedRationalFunction" title="pycarl.cln.cln.FactorizedRationalFunction"><span class="pre">pycarl.cln.cln.FactorizedRationalFunction</span></a></span></span><a class="headerlink" href="#pycarl.cln.formula.SimpleConstraintRatFunc.lhs" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get the left hand side of the constraint</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="pycarl.cln.formula.SimpleConstraintRatFunc.rel">
-<span class="sig-name descname"><span class="pre">rel</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference internal" href="#pycarl.cln.formula.SimpleConstraintRatFunc" title="pycarl.cln.formula.formula.SimpleConstraintRatFunc"><span class="pre">pycarl.cln.formula.formula.SimpleConstraintRatFunc</span></a></span></em><span class="sig-paren">)</span> &#x2192; <a class="reference internal" href="#pycarl.formula.Relation" title="pycarl.formula.formula.Relation"><span class="pre">pycarl.formula.formula.Relation</span></a><a class="headerlink" href="#pycarl.cln.formula.SimpleConstraintRatFunc.rel" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">rel</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">self</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pycarl.cln.formula.SimpleConstraintRatFunc" title="pycarl.cln.formula.formula.SimpleConstraintRatFunc"><span class="pre">pycarl.cln.formula.formula.SimpleConstraintRatFunc</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pycarl.formula.Relation" title="pycarl.formula.formula.Relation"><span class="pre">pycarl.formula.formula.Relation</span></a></span></span><a class="headerlink" href="#pycarl.cln.formula.SimpleConstraintRatFunc.rel" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get the relation of the constraint</p>
 </dd></dl>
 
@@ -534,7 +534,7 @@
     </p>
     <p>
         &copy; Copyright 2016-2021 Moves RWTH Aachen.<br/>
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.0.2.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.4.0.<br/>
     </p>
   </div>
 </footer>
