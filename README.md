@@ -3,6 +3,7 @@ Pycarl - Python Bindings for CArL
 
 [![Build Status](https://github.com/moves-rwth/pycarl/workflows/Build%20Test/badge.svg)](https://github.com/moves-rwth/pycarl/actions)
 [![GitHub release](https://img.shields.io/github/release/moves-rwth/pycarl.svg)](https://github.com/moves-rwth/pycarl/releases/)
+[![DOI](https://zenodo.org/badge/75837401.svg)](https://zenodo.org/badge/latestdoi/75837401)
 
 Python bindings for [CArL](https://github.com/ths-rwth/carl), created using [PyBind11](http://pybind11.readthedocs.io/en/stable/intro.html).
 
