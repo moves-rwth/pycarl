@@ -15,7 +15,7 @@ if sys.version_info[0] == 2:
 # Minimal carl version required
 carl_min_version = "14.23"
 carl_storm_version_prefix = "14."
-pybind_version_default = "2.10.0"
+pybind_version_default = "2.11.1"
 
 # Get the long description from the README file
 with open(os.path.join(os.path.abspath(os.path.dirname(__file__)), 'README.md'), encoding='utf-8') as f:
@@ -118,7 +118,7 @@ class CMakeBuild(build_ext):
         build_type = 'Debug' if self.config.get_as_bool("debug") else 'Release'
         # Set cmake build options
         cmake_args = ['-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=' + self._extdir("core")]
-        cmake_args += ['-DPYTHON_EXECUTABLE=' + sys.executable]
+        cmake_args += ['-DPython_EXECUTABLE=' + sys.executable]
         cmake_args += ['-DCMAKE_BUILD_TYPE=' + build_type]
         cmake_args += ['-DPYBIND_VERSION=' + pybind_version]
         if carl_dir is not None:

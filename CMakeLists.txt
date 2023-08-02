@@ -10,6 +10,7 @@ MARK_AS_ADVANCED(PYBIND_VERSION)
 find_package(carl REQUIRED)
 find_package(carlparser QUIET)
 
+find_package(Python COMPONENTS Interpreter Development REQUIRED)
 include(resources/include_pybind11.cmake)
 
 set(CMAKE_CXX_STANDARD 14)
