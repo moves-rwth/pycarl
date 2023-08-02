@@ -1,4 +1,5 @@
-cmake_minimum_required(VERSION 3.0.0)
+cmake_minimum_required(VERSION 3.15)
+
 project(carl-version)
 find_package(carl REQUIRED)
 find_package(carlparser QUIET)
@@ -20,4 +21,5 @@ else()
     set(CARL_WITH_CLN "False")
 endif()
 
+# Write configuration file
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/config.py.in ${CMAKE_CURRENT_BINARY_DIR}/generated/config.py @ONLY)
