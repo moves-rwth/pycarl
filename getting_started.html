@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" data-content_root="./">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,9 +8,9 @@
     <title>Getting Started &#8212; pycarl 2.2.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="_static/bootstrap-sphinx.css?v=0bf093e7" />
-    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=90673249"></script>
+    <script src="_static/documentation_options.js?v=b21de401"></script>
     <script src="_static/doctools.js?v=888ff710"></script>
-    <script src="_static/sphinx_highlight.js?v=4825356b"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Pycarl core" href="api/core.html" />
@@ -70,25 +70,25 @@
 <p class="caption" role="heading"><span class="caption-text">Modules:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="api/core.html">Pycarl core</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="api/core.html#module-pycarl">Number independent types</a></li>
-<li class="toctree-l2"><a class="reference internal" href="api/core.html#module-pycarl.gmp">Number dependent types (gmp)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="api/core.html#module-pycarl.cln">Number dependent types (cln)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/core.html#number-independent-types">Number independent types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/core.html#number-dependent-types-gmp">Number dependent types (gmp)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/core.html#number-dependent-types-cln">Number dependent types (cln)</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="api/convert.html">Pycarl convert</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="api/convert.html#module-pycarl.convert">Number conversion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/convert.html#number-conversion">Number conversion</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="api/formula.html">Pycarl formula</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="api/formula.html#module-pycarl.formula">Number independent types</a></li>
-<li class="toctree-l2"><a class="reference internal" href="api/formula.html#module-pycarl.gmp.formula">Number dependent types (gmp)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="api/formula.html#module-pycarl.cln.formula">Number dependent types (cln)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/formula.html#number-independent-types">Number independent types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/formula.html#number-dependent-types-gmp">Number dependent types (gmp)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/formula.html#number-dependent-types-cln">Number dependent types (cln)</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="api/parse.html">Pycarl parse</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="api/parse.html#module-pycarl.parse">Number independent types</a></li>
-<li class="toctree-l2"><a class="reference internal" href="api/parse.html#module-pycarl.gmp.parse">Number dependent types (gmp)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="api/parse.html#module-pycarl.cln.parse">Number dependent types (cln)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/parse.html#number-independent-types">Number independent types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/parse.html#number-dependent-types-gmp">Number dependent types (gmp)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api/parse.html#number-dependent-types-cln">Number dependent types (cln)</a></li>
 </ul>
 </li>
 </ul>
@@ -153,10 +153,10 @@
     <div class="body col-md-12 content" role="main">
       
   <section id="getting-started">
-<h1>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this heading">¶</a></h1>
+<h1>Getting Started<a class="headerlink" href="#getting-started" title="Link to this heading">¶</a></h1>
 <p>Before starting with this guide, one should follow the instructions for <a class="reference internal" href="installation.html"><span class="doc">Installation</span></a>.</p>
 <section id="a-quick-tour-through-pycarl">
-<h2>A Quick Tour through pycarl<a class="headerlink" href="#a-quick-tour-through-pycarl" title="Permalink to this heading">¶</a></h2>
+<h2>A Quick Tour through pycarl<a class="headerlink" href="#a-quick-tour-through-pycarl" title="Link to this heading">¶</a></h2>
 <p>We start by launching the python 3 interpreter:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ python3
 </pre></div>
@@ -171,7 +171,7 @@ In this example we will use <code class="docutils literal notranslate"><span cla
 </pre></div>
 </div>
 <section id="simple-arithmetic-operations">
-<h3>Simple arithmetic operations<a class="headerlink" href="#simple-arithmetic-operations" title="Permalink to this heading">¶</a></h3>
+<h3>Simple arithmetic operations<a class="headerlink" href="#simple-arithmetic-operations" title="Link to this heading">¶</a></h3>
 <div class="admonition seealso">
 <p class="admonition-title">See also</p>
 <p><a class="reference external" href="https://github.com/moves-rwth/pycarl/blob/master/examples/01-getting-started.py">01-getting-started.py</a></p>
@@ -215,7 +215,7 @@ First we create two variables <code class="docutils literal notranslate"><span c
     </p>
     <p>
         &copy; Copyright MOVES RWTH Aachen.<br/>
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 7.1.2.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 7.2.2.<br/>
     </p>
   </div>
 </footer>
