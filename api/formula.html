@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
     <link rel="stylesheet" type="text/css" href="../_static/bootstrap-sphinx.css?v=0bf093e7" />
     <script src="../_static/documentation_options.js?v=b21de401"></script>
-    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -244,7 +244,133 @@
 
 <div class="container">
   <div class="row">
-    <div class="body col-md-12 content" role="main">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><ul>
+<li><a class="reference internal" href="#">Pycarl formula</a><ul>
+<li><a class="reference internal" href="#module-pycarl.formula">Number independent types</a><ul>
+<li><a class="reference internal" href="#pycarl.formula.FormulaType"><code class="docutils literal notranslate"><span class="pre">FormulaType</span></code></a><ul>
+<li><a class="reference internal" href="#pycarl.formula.FormulaType.AND"><code class="docutils literal notranslate"><span class="pre">FormulaType.AND</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.formula.FormulaType.BITVECTOR"><code class="docutils literal notranslate"><span class="pre">FormulaType.BITVECTOR</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.formula.FormulaType.BOOL"><code class="docutils literal notranslate"><span class="pre">FormulaType.BOOL</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.formula.FormulaType.CONSTRAINT"><code class="docutils literal notranslate"><span class="pre">FormulaType.CONSTRAINT</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.formula.FormulaType.EXISTS"><code class="docutils literal notranslate"><span class="pre">FormulaType.EXISTS</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.formula.FormulaType.FALSE"><code class="docutils literal notranslate"><span class="pre">FormulaType.FALSE</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.formula.FormulaType.FORALL"><code class="docutils literal notranslate"><span class="pre">FormulaType.FORALL</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.formula.FormulaType.IFF"><code class="docutils literal notranslate"><span class="pre">FormulaType.IFF</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.formula.FormulaType.IMPLIES"><code class="docutils literal notranslate"><span class="pre">FormulaType.IMPLIES</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.formula.FormulaType.ITE"><code class="docutils literal notranslate"><span class="pre">FormulaType.ITE</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.formula.FormulaType.NOT"><code class="docutils literal notranslate"><span class="pre">FormulaType.NOT</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.formula.FormulaType.OR"><code class="docutils literal notranslate"><span class="pre">FormulaType.OR</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.formula.FormulaType.TRUE"><code class="docutils literal notranslate"><span class="pre">FormulaType.TRUE</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.formula.FormulaType.UEQ"><code class="docutils literal notranslate"><span class="pre">FormulaType.UEQ</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.formula.FormulaType.XOR"><code class="docutils literal notranslate"><span class="pre">FormulaType.XOR</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.formula.FormulaType.name"><code class="docutils literal notranslate"><span class="pre">FormulaType.name</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.formula.FormulaType.value"><code class="docutils literal notranslate"><span class="pre">FormulaType.value</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#pycarl.formula.Relation"><code class="docutils literal notranslate"><span class="pre">Relation</span></code></a><ul>
+<li><a class="reference internal" href="#pycarl.formula.Relation.EQ"><code class="docutils literal notranslate"><span class="pre">Relation.EQ</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.formula.Relation.GEQ"><code class="docutils literal notranslate"><span class="pre">Relation.GEQ</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.formula.Relation.GREATER"><code class="docutils literal notranslate"><span class="pre">Relation.GREATER</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.formula.Relation.LEQ"><code class="docutils literal notranslate"><span class="pre">Relation.LEQ</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.formula.Relation.LESS"><code class="docutils literal notranslate"><span class="pre">Relation.LESS</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.formula.Relation.NEQ"><code class="docutils literal notranslate"><span class="pre">Relation.NEQ</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.formula.Relation.name"><code class="docutils literal notranslate"><span class="pre">Relation.name()</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.formula.Relation.value"><code class="docutils literal notranslate"><span class="pre">Relation.value</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#module-pycarl.gmp.formula">Number dependent types (gmp)</a><ul>
+<li><a class="reference internal" href="#pycarl.gmp.formula.Constraint"><code class="docutils literal notranslate"><span class="pre">Constraint</span></code></a><ul>
+<li><a class="reference internal" href="#pycarl.gmp.formula.Constraint.lhs"><code class="docutils literal notranslate"><span class="pre">Constraint.lhs</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.gmp.formula.Constraint.relation"><code class="docutils literal notranslate"><span class="pre">Constraint.relation</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.gmp.formula.Constraint.to_smt2"><code class="docutils literal notranslate"><span class="pre">Constraint.to_smt2()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#pycarl.gmp.formula.Formula"><code class="docutils literal notranslate"><span class="pre">Formula</span></code></a><ul>
+<li><a class="reference internal" href="#pycarl.gmp.formula.Formula.get_constraint"><code class="docutils literal notranslate"><span class="pre">Formula.get_constraint()</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.gmp.formula.Formula.get_implication_conclusion"><code class="docutils literal notranslate"><span class="pre">Formula.get_implication_conclusion()</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.gmp.formula.Formula.get_implication_premise"><code class="docutils literal notranslate"><span class="pre">Formula.get_implication_premise()</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.gmp.formula.Formula.get_ite_condition"><code class="docutils literal notranslate"><span class="pre">Formula.get_ite_condition()</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.gmp.formula.Formula.get_ite_first_case"><code class="docutils literal notranslate"><span class="pre">Formula.get_ite_first_case()</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.gmp.formula.Formula.get_ite_second_case"><code class="docutils literal notranslate"><span class="pre">Formula.get_ite_second_case()</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.gmp.formula.Formula.get_negation_subformula"><code class="docutils literal notranslate"><span class="pre">Formula.get_negation_subformula()</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.gmp.formula.Formula.get_subformulas"><code class="docutils literal notranslate"><span class="pre">Formula.get_subformulas()</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.gmp.formula.Formula.to_smt2"><code class="docutils literal notranslate"><span class="pre">Formula.to_smt2()</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.gmp.formula.Formula.type"><code class="docutils literal notranslate"><span class="pre">Formula.type</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#pycarl.gmp.formula.SimpleConstraint"><code class="docutils literal notranslate"><span class="pre">SimpleConstraint</span></code></a><ul>
+<li><a class="reference internal" href="#pycarl.gmp.formula.SimpleConstraint.lhs"><code class="docutils literal notranslate"><span class="pre">SimpleConstraint.lhs()</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.gmp.formula.SimpleConstraint.rel"><code class="docutils literal notranslate"><span class="pre">SimpleConstraint.rel()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#pycarl.gmp.formula.SimpleConstraintRatFunc"><code class="docutils literal notranslate"><span class="pre">SimpleConstraintRatFunc</span></code></a><ul>
+<li><a class="reference internal" href="#pycarl.gmp.formula.SimpleConstraintRatFunc.lhs"><code class="docutils literal notranslate"><span class="pre">SimpleConstraintRatFunc.lhs()</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.gmp.formula.SimpleConstraintRatFunc.rel"><code class="docutils literal notranslate"><span class="pre">SimpleConstraintRatFunc.rel()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#module-pycarl.cln.formula">Number dependent types (cln)</a><ul>
+<li><a class="reference internal" href="#pycarl.cln.formula.Constraint"><code class="docutils literal notranslate"><span class="pre">Constraint</span></code></a><ul>
+<li><a class="reference internal" href="#pycarl.cln.formula.Constraint.lhs"><code class="docutils literal notranslate"><span class="pre">Constraint.lhs</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.cln.formula.Constraint.relation"><code class="docutils literal notranslate"><span class="pre">Constraint.relation</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.cln.formula.Constraint.to_smt2"><code class="docutils literal notranslate"><span class="pre">Constraint.to_smt2()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#pycarl.cln.formula.Formula"><code class="docutils literal notranslate"><span class="pre">Formula</span></code></a><ul>
+<li><a class="reference internal" href="#pycarl.cln.formula.Formula.get_constraint"><code class="docutils literal notranslate"><span class="pre">Formula.get_constraint()</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.cln.formula.Formula.get_implication_conclusion"><code class="docutils literal notranslate"><span class="pre">Formula.get_implication_conclusion()</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.cln.formula.Formula.get_implication_premise"><code class="docutils literal notranslate"><span class="pre">Formula.get_implication_premise()</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.cln.formula.Formula.get_ite_condition"><code class="docutils literal notranslate"><span class="pre">Formula.get_ite_condition()</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.cln.formula.Formula.get_ite_first_case"><code class="docutils literal notranslate"><span class="pre">Formula.get_ite_first_case()</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.cln.formula.Formula.get_ite_second_case"><code class="docutils literal notranslate"><span class="pre">Formula.get_ite_second_case()</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.cln.formula.Formula.get_negation_subformula"><code class="docutils literal notranslate"><span class="pre">Formula.get_negation_subformula()</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.cln.formula.Formula.get_subformulas"><code class="docutils literal notranslate"><span class="pre">Formula.get_subformulas()</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.cln.formula.Formula.to_smt2"><code class="docutils literal notranslate"><span class="pre">Formula.to_smt2()</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.cln.formula.Formula.type"><code class="docutils literal notranslate"><span class="pre">Formula.type</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#pycarl.cln.formula.SimpleConstraint"><code class="docutils literal notranslate"><span class="pre">SimpleConstraint</span></code></a><ul>
+<li><a class="reference internal" href="#pycarl.cln.formula.SimpleConstraint.lhs"><code class="docutils literal notranslate"><span class="pre">SimpleConstraint.lhs()</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.cln.formula.SimpleConstraint.rel"><code class="docutils literal notranslate"><span class="pre">SimpleConstraint.rel()</span></code></a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#pycarl.cln.formula.SimpleConstraintRatFunc"><code class="docutils literal notranslate"><span class="pre">SimpleConstraintRatFunc</span></code></a><ul>
+<li><a class="reference internal" href="#pycarl.cln.formula.SimpleConstraintRatFunc.lhs"><code class="docutils literal notranslate"><span class="pre">SimpleConstraintRatFunc.lhs()</span></code></a></li>
+<li><a class="reference internal" href="#pycarl.cln.formula.SimpleConstraintRatFunc.rel"><code class="docutils literal notranslate"><span class="pre">SimpleConstraintRatFunc.rel()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <li>
+    <a href="convert.html" title="Previous Chapter: Pycarl convert"><span class="glyphicon glyphicon-chevron-left visible-sm"></span><span class="hidden-sm hidden-tablet">&laquo; Pycarl convert</span>
+    </a>
+  </li>
+  <li>
+    <a href="parse.html" title="Next Chapter: Pycarl parse"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Pycarl parse &raquo;</span>
+    </a>
+  </li>
+<div id="sourcelink">
+  <a href="../_sources/api/formula.rst.txt"
+     rel="nofollow">Source</a>
+</div>
+<form action="../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+        </div>
+      </div>
+    <div class="body col-md-9 content" role="main">
       
   <section id="pycarl-formula">
 <h1>Pycarl formula<a class="headerlink" href="#pycarl-formula" title="Link to this heading">¶</a></h1>
@@ -677,7 +803,7 @@ Overloaded function.</p>
     </p>
     <p>
         &copy; Copyright MOVES RWTH Aachen.<br/>
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 7.2.6.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 7.3.7.<br/>
     </p>
   </div>
 </footer>
