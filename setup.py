@@ -15,7 +15,7 @@ if sys.version_info[0] == 2:
 # Minimal carl version required
 carl_min_version = "14.23"
 carl_storm_version_prefix = "14."
-pybind_version_default = "2.11.1"
+pybind_version_default = "2.10.0"
 
 # Get the long description from the README file
 with open(os.path.join(os.path.abspath(os.path.dirname(__file__)), "README.md"), encoding="utf-8") as f:
