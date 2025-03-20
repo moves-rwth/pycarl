@@ -17,6 +17,9 @@ Before installing pycarl, make sure
 Installation Steps
 ====================
 
+.. warning::
+    Pycarl is now part of `stormpy <https://moves-rwth.github.io/stormpy>`_ and this repository is no longer maintained. Please use the `Github repository of stormpy <https://github.com/moves-rwth/stormpy>`_ instead.
+
 Virtual Environments
 --------------------
 

@@ -90,6 +90,10 @@ html_theme = "bootstrap"
 
 html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 
+rst_prolog = """.. warning::
+    Pycarl is now part of `stormpy <https://moves-rwth.github.io/stormpy>`_ and this repository is no longer maintained. Please use the `Github repository of stormpy <https://github.com/moves-rwth/stormpy>`_ instead.
+"""
+
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
