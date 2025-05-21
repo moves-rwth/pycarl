@@ -1,6 +1,17 @@
 Changelog
 =============
 
+Version 2.4.x
+-------------
+
+### Version 2.4.0 (2025/05)
+Requires carl-storm version >= 14.23
+
+- Last release of pycarl. Pycarl is integrated into [stormpy](https://github.com/moves-rwth/stormpy/).
+- Use C++20
+- Updated CI
+
+
 Version 2.3.x
 -------------
 
