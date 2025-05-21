@@ -1,3 +1,7 @@
+> [!WARNING]
+> ## Pycarl is now part of [stormpy](https://moves-rwth.github.io/stormpy/) and this repository is no longer maintained. Please use the [Github repository of stormpy](https://github.com/moves-rwth/stormpy) instead.
+
+
 Pycarl - Python Bindings for CArL
 =================================
 
